@@ -1,0 +1,98 @@
+body {
+    max-width: 1200px;
+    align-items: center;
+}
+
+/*HEADER*/
+header {
+    margin: 10px;
+    border: 10px solid black;
+}
+
+header>div {
+    background-color: orange;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* first line of header*/
+header>div:first-child {
+    background-color: darkslategrey;
+    border-bottom: 5px solid black;
+
+}
+
+header>div:first-child>p {
+    width: 15%;
+    height: 20px;
+    margin: 10px;
+    background-color: red;
+}
+
+header>div:first-child>p:nth-child(2) {
+    width: 70%;
+}
+
+/* second line of header */
+header>div:nth-child(2)>p {
+    width: 100%;
+    height: 20px;
+    margin: 10px;
+    background-color: yellow;
+}
+
+/* SECTION */
+section {
+    margin: 10px;
+    border: 10px solid black;
+    display: flex;
+}
+
+/* first column */
+section>div:first-child {
+    flex: 66%;
+    border-right: 10px solid black;
+    background-color: darkslategrey;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section>div:first-child>p {
+    height: 20px;
+    margin: 10px;
+    background-color: darkblue;
+    flex: 45%;
+}
+
+section>div:first-child>p:last-child {
+    flex: 100%;
+    background-color: lightblue;
+}
+
+/* second column*/
+section>div:nth-child(2) {
+    flex: 33%;
+    background-color: red;
+}
+
+section>div:nth-child(2)>p {
+    height: 20px;
+    margin: 10px;
+    flex: 100%;
+    background-color: yellow;
+}
+
+/* FOOTER */
+
+footer {
+    margin: 10px;
+    border: 10px solid black;
+    display: flex;
+}
+
+footer>div {
+    background-color: orange;
+    height: 20px;
+    flex: 100%;
+}

@@ -1,21 +1,38 @@
-/* Small devices (portrait tablets and large phones, 768px and down) */
-@media only screen {
-  .col-s-12 {
-    flex: 100%;
-  }
+/* For mobile phones: */
+[class*="col-"] {
+  flex: 100%;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .col-s-1 {flex: 8.33%;}
+  .col-s-2 {flex: 16.66%;}
+  .col-s-3 {flex: 25%;}
+  .col-s-4 {flex: 33.33%;}
+  .col-s-5 {flex: 41.66%;}
+  .col-s-6 {flex: 50%;}
+  .col-s-7 {flex: 58.33%;}
+  .col-s-8 {flex: 66.66%;}
+  .col-s-9 {flex: 75%;}
+  .col-s-10 {flex: 83.33%;}
+  .col-s-11 {flex: 91.66%;}
+  .col-s-12 {flex: 100%;}
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  .col-4 {
-    flex: 33.33%;
-  }
-  .col-8 {
-    flex: 66.66%;
-  }
-  .col-12 {
-    flex: 100%;
-  }
+  .col-1 {flex: 8.33%;}
+  .col-2 {flex: 16.66%;}
+  .col-3 {flex: 25%;}
+  .col-4 {flex: 33.33%;}
+  .col-5 {flex: 41.66%;}
+  .col-6 {flex: 50%;}
+  .col-7 {flex: 58.33%;}
+  .col-8 {flex: 66.66%;}
+  .col-9 {flex: 75%;}
+  .col-10 {flex: 83.33%;}
+  .col-11 {flex: 91.66%;}
+  .col-12 {flex: 100%;}
 }
 
 * {
@@ -31,11 +48,15 @@ body {
 header {
   margin: 10px;
   border: 10px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  
 }
 
 header > div {
   background-color: orange;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
 }
@@ -44,22 +65,18 @@ header > div {
 header > div:first-child {
   background-color: darkslategrey;
   border-bottom: 10px solid black;
+  
 }
 
 header > div:first-child > p {
-  width: 15%;
   height: 20px;
-  margin: 10px;
+  margin:10px 1%;
   background-color: red;
 }
 
-header > div:first-child > p:nth-child(2) {
-  width: 70%;
-}
 
 /* second line of header */
 header > div:nth-child(2) > p {
-  width: 100%;
   height: 20px;
   margin: 10px;
   background-color: yellow;
@@ -82,13 +99,11 @@ section > div:first-child {
 
 section > div:first-child > p {
   height: 20px;
-  margin: 10px;
+  margin: 10px 1%;
   background-color: darkblue;
-  flex: 45%;
 }
 
 section > div:first-child > p:last-child {
-  flex: 100%;
   background-color: lightblue;
 }
 

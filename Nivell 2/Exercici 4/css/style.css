@@ -1,0 +1,28 @@
+header{
+    background-image: url("/images/header.jpg");
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+nav > img{
+    width:100px;
+
+}
+
+header > nav > ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+
+}
+
+header > nav > li {
+    list-style: none;
+    display: inline;
+    list-style-type: none;
+}

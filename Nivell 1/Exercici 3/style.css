@@ -1,128 +1,79 @@
-/* For mobile phones: */
-[class*="col-"] {
-  flex: 100%;
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-  .col-s-1 {flex: 8.33%;}
-  .col-s-2 {flex: 16.66%;}
-  .col-s-3 {flex: 25%;}
-  .col-s-4 {flex: 33.33%;}
-  .col-s-5 {flex: 41.66%;}
-  .col-s-6 {flex: 50%;}
-  .col-s-7 {flex: 58.33%;}
-  .col-s-8 {flex: 66.66%;}
-  .col-s-9 {flex: 75%;}
-  .col-s-10 {flex: 83.33%;}
-  .col-s-11 {flex: 91.66%;}
-  .col-s-12 {flex: 100%;}
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-  .col-1 {flex: 8.33%;}
-  .col-2 {flex: 16.66%;}
-  .col-3 {flex: 25%;}
-  .col-4 {flex: 33.33%;}
-  .col-5 {flex: 41.66%;}
-  .col-6 {flex: 50%;}
-  .col-7 {flex: 58.33%;}
-  .col-8 {flex: 66.66%;}
-  .col-9 {flex: 75%;}
-  .col-10 {flex: 83.33%;}
-  .col-11 {flex: 91.66%;}
-  .col-12 {flex: 100%;}
-}
-
 * {
   box-sizing: border-box;
 }
 
 body {
   max-width: 1200px;
-  align-items: center;
+  margin:auto
 }
 
 /*HEADER*/
 header {
   margin: 10px;
   border: 10px solid black;
-  display: flex;
-  flex-wrap: wrap;
-  
 }
 
 header > div {
   background-color: orange;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+  padding: 0 10px;
 }
 
 /* first line of header*/
 header > div:first-child {
   background-color: darkslategrey;
-  border-bottom: 10px solid black;
-  
+  border-bottom: 5px solid black;
 }
 
 header > div:first-child > p {
   height: 20px;
-  margin:10px 1%;
   background-color: red;
 }
 
-
 /* second line of header */
 header > div:nth-child(2) > p {
+  width: 100%;
   height: 20px;
-  margin: 10px;
   background-color: yellow;
 }
 
 /* SECTION */
 section {
-  display: flex;
-  flex-wrap: wrap;
   margin: 10px;
+  border: 10px solid black;
+  display: flex;
+  flex-direction:column;
 }
 
 /* first column */
 section > div:first-child {
-  border: 10px solid black;
+  border-bottom: 10px solid black;
   background-color: darkslategrey;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
 section > div:first-child > p {
   height: 20px;
-  margin: 10px 1%;
+  margin: 2%;
   background-color: darkblue;
+  width: 45%;
 }
 
 section > div:first-child > p:last-child {
+  width: 100%;
   background-color: lightblue;
 }
 
-section > div:nth-child(2) {
-    border: 10px solid black;
-    background-color: red;
-}
-
 /* second column*/
-@media only screen and (min-width: 768px) {
-  section > div:nth-child(2) {
-    border-left: 0px;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  section > div:nth-child(2) {
-    border-top: 0px;
-  }
+section > div:nth-child(2) {
+  background-color: red;
+  margin:0px;
 }
 
 section > div:nth-child(2) > p {
@@ -142,4 +93,5 @@ footer {
 footer > div {
   background-color: orange;
   height: 20px;
+  width: 100%;
 }

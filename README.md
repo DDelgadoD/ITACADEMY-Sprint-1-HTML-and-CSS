@@ -45,7 +45,7 @@ L'ample màxim de la capa que contindrà tota la maquetació serà de 1200px (
 
   
 
-![Captura de pantalla del wireframe versió escriptori](https://itacademy.barcelonactiva.cat/pluginfile.php/11953/mod_assign/intro/Pr%C3%A0ctica%20Flex%20versi%C3%B3%20excriptori.png)
+![Captura de pantalla del wireframe versió escriptori](imagesPr%C3%A0ctica%20Flex%20versi%C3%B3%20excriptori.png)
 
 ### \- Exercici 2
 
@@ -61,13 +61,13 @@ Sobre Media Query **\-> [Responsive Web Design - Media Queries](https://www.w3sc
 
 Seguint amb el projecte anterior, fes la versió per tauleta, tal com indica la captura següent:
 
-![Captura de pantalla del wireframe versió tauleta](https://itacademy.barcelonactiva.cat/pluginfile.php/11953/mod_assign/intro/Captura%20de%20pantalla%20del%20wireframe%20versi%C3%B3%20tauleta.png)  
+![Captura de pantalla del wireframe versió tauleta](images/Captura%20de%20pantalla%20del%20wireframe%20versi%C3%B3%20tauleta.png)  
 
 ### \- Exercici 3
 
 Com el cas anterior, ara hauràs de fer l'adaptació a versió Mobile.
 
-![](https://cdn.discordapp.com/attachments/774241149757161472/805847315474677822/Captura_de_pantalla_2021-02-01_a_las_18.06.04.png)  
+![](images/Captura_de_pantalla_2021-02-01_a_las_18.06.04.png)  
 
 * * *
 
@@ -90,15 +90,15 @@ En una entrevista tècnica a una empresa o en proves de nivell de l'especialitza
 
 A continuació tens una mostra de com quedaria la maquetació final de la pàgina.
 
-![](https://itacademy.barcelonactiva.cat/pluginfile.php/11953/mod_assign/intro/japan2.png)  
+![](images/pluginfile.php/11953/mod_assign/intro/japan2.png)  
 
-En **\->[aquest enllaç](https://itacademy.barcelonactiva.cat/pluginfile.php/11953/mod_assign/intro/images.zip)** et pots descarregar els recursos necessaris.
+En **\->[aquest enllaç](images/images.zip)** et pots descarregar els recursos necessaris.
 
 ### \- Exercici 4
 
 En aquesta part volem que treballis la capçalera i el grafisme. Hauràs d'afegir icones i logotip, a més de fer una imatge de fons. Substitueix els quadrants respectius perquè la nova capçalera tingui l'aspecte d'aquest web de turisme al japó:
 
-![](https://itacademy.barcelonactiva.cat/pluginfile.php/11953/mod_assign/intro/header.png)  
+![](images/header.png)  
 
 És important que tinguis en consideració el següent:
 
@@ -112,7 +112,7 @@ En aquesta part volem que treballis la capçalera i el grafisme. Hauràs d'afegi
 
 En aquest exercici hauràs d'afegir l'apartat dels articles seguint aquest grafisme:
 
-![](https://itacademy.barcelonactiva.cat/pluginfile.php/11953/mod_assign/intro/article.png)  
+![](images/article.png)  
 
 * * *
 

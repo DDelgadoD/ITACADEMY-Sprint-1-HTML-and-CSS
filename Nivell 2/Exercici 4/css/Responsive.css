@@ -1,10 +1,11 @@
 /* For mobile phones: */
-[class*="col-"] {
-  flex: 100%;
-}
+[class*="col-"] {flex: 100%;}
+
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+  nav {flex-direction: row;}
+  header > nav > li {margin:10%;}
   .col-s-1 {flex: 8.33%;}
   .col-s-2 {flex: 16.66%;}
   .col-s-3 {flex: 25%;}

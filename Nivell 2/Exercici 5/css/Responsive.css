@@ -1,0 +1,41 @@
+/* For mobile phones: */
+[class*="col-"] {flex: 100%;}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  nav {flex-direction: row;}
+  header > nav > li {margin:10%;}
+  .col-s-1 {flex: 8.33%;}
+  .col-s-2 {flex: 16.66%;}
+  .col-s-3 {flex: 25%;}
+  .col-s-4 {flex: 33.33%;}
+  .col-s-5 {flex: 41.66%;}
+  .col-s-6 {flex: 50%;}
+  .col-s-7 {flex: 58.33%;}
+  .col-s-8 {flex: 66.66%;}
+  .col-s-9 {flex: 75%;}
+  .col-s-10 {flex: 83.33%;}
+  .col-s-11 {flex: 91.66%;}
+  .col-s-12 {flex: 100%;}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .col-1 {flex: 8.33%;}
+  .col-2 {flex: 16.66%;}
+  .col-3 {flex: 25%;}
+  .col-4 {flex: 33.33%;}
+  .col-5 {flex: 41.66%;}
+  .col-6 {flex: 50%;}
+  .col-7 {flex: 58.33%;}
+  .col-8 {flex: 66.66%;}
+  .col-9 {flex: 75%;}
+  .col-10 {flex: 83.33%;}
+  .col-11 {flex: 91.66%;}
+  .col-12 {flex: 100%;}
+}
+
+* {
+  box-sizing: border-box;
+}

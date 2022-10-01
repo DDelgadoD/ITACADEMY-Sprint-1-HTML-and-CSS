@@ -45,7 +45,7 @@ L'ample màxim de la capa que contindrà tota la maquetació serà de 1200px (
 
   
 
-![Captura de pantalla del wireframe versió escriptori](imagesPr%C3%A0ctica%20Flex%20versi%C3%B3%20excriptori.png)
+![Captura de pantalla del wireframe versió escriptori](images/Pr%C3%A0ctica%20Flex%20versi%C3%B3%20excriptori.png)
 
 ### \- Exercici 2
 

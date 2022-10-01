@@ -90,7 +90,7 @@ En una entrevista tècnica a una empresa o en proves de nivell de l'especialitza
 
 A continuació tens una mostra de com quedaria la maquetació final de la pàgina.
 
-![](images/pluginfile.php/11953/mod_assign/intro/japan2.png)  
+![](images/japan2.png)  
 
 En **\->[aquest enllaç](images/images.zip)** et pots descarregar els recursos necessaris.
 

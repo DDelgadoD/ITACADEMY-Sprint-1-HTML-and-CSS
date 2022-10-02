@@ -30,7 +30,7 @@
   header > nav > li {margin:10% 0;}
   #cards, #lateral{padding:0%;}
   #cards{margin-right: 1%;}
-  #lateral{margin-top: 0%;}
+  #lateral{margin: 0% ;}
   [id*="section-"] {margin: 1%;}
 
   .col-1 {width: 8.33%;}

@@ -41,6 +41,7 @@ nav a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 2%;
 }
 
 #logo > img{

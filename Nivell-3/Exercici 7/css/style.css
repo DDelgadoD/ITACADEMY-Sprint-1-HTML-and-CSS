@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url("./animations.css");
+
+html {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+  
+body{
+    margin: 0 5%;
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    grid-template:
+                    "header header header header", 100%
+                    "section section section lateral",  80%, 20%
+                    "footer footer footer footer", 100%;
+}
+
+/*HEADER */
+
+header{
+    background-image: url("../images/header.jpg");
+    background-position: center;
+}
+
+nav{
+    display: grid;
+    color:rgb(128,128,128);
+}
+
+nav a{
+    color: inherit;
+    text-decoration: inherit;
+}
+
+nav a:hover{
+    color: black;
+}
+
+#logo{
+    margin: 2%;
+    animation: moverIzquierda 3s ease-in;
+}
+
+#logo > img{
+    width:100px;
+}
+
+header > nav > ul {
+    list-style-type: none;
+    padding: 0 5%;
+    
+}
+
+header > nav > li {
+    list-style: none;
+    display: inline;
+    text-decoration: none;
+}
+
+#social-case{
+    display: grid;
+    animation: temblor 2s 3s infinite ;
+}
+
+#social-case:hover{
+    animation-play-state: paused;
+}
+
+#social-case a{
+  margin: 5%;
+}
+
+#enjoy{
+    margin: 10% 10% 0% 10%;
+    padding: 4%;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+    background-color: rgb(0, 0, 0, 0.1);
+    color:rgb(244,160,128);
+    font-size: xx-large;
+    font-weight: bold;
+    animation: moverAbajo 1s ease;
+}
+
+/*SECTIONS*/
+
+section{
+    display: flex;
+    flex-direction: column;
+    padding: 1% 0;
+}
+
+#cards, #lateral{
+    background-color: rgb(216,215,215);
+    padding: 1%;
+}
+
+#lateral{
+    margin: 2% 0%;
+    text-align: center;
+}
+
+#lateral h3{
+    font-weight: bolder;
+}
+
+#lateral > p{
+    font-weight: bold;
+    margin: 2% 10%;
+}
+
+.row{
+    display: flex;
+    flex-direction: column;
+}
+
+#cards img{
+    width: 100%;
+    aspect-ratio: 1.7;
+    padding: 2%;
+    margin-bottom: -8%;
+}
+
+#cards a{
+    color:rgb(128,128,128);
+    text-decoration: inherit;
+    padding-bottom: 1%;
+    margin:0 4%;
+}
+
+#cards a:hover{
+    color: black;
+}
+
+.date{
+    color:yellow;
+    margin: 2%;
+    font-size:large;
+}
+
+.title-cherry{
+    color:white;
+    background-color: rgb(240,128,128);
+    font-weight: bolder;
+    font-size: x-large;
+    margin: 2%;
+    padding: 5% 0 0 1% ;
+}
+
+[id*="section-"]{
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    margin: 0 0 2% 0;
+}
+
+.two-col{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 2%;
+}
+
+.two-col > div {
+    width:  calc(50% - 4%);
+    margin: 2%;
+}
+
+#cards-footer{
+    padding: 0 2% 2% 2%;
+    font-weight: bolder;
+}
+
+footer{
+    background-color: rgb(216,215,215);
+    padding: 0 2%;
+}
+
+footer > div {
+    background-color:rgb(245,241,241);
+    margin-bottom: 1%;
+    padding: 1%  4%;
+    text-align: center;
+}

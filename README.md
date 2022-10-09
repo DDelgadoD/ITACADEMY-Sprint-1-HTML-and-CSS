@@ -1,7 +1,6 @@
 # S1. HTML i CSS
 
 ## Avaluació
-------------
 
 NOTA: **7,89** / 10,00
 
@@ -74,9 +73,11 @@ https://youtube.com/playlist?list=PLRM7PpbqqStJdi4GPXOLwc23_DXplLmuS
 
 Com has aprovat no cal que realitzis la solució d'aquests comentaris, sinó que és més efectiu que avancis en el següent sprint i les solucions les apliquis als lliuraments dels següents sprints...
 
-# SPRINT SUPERAT  
+------
+# SPRINT SUPERAT
 
-  
+<br>  
+<br>
 
 Descripció
 ----------
